@@ -1,0 +1,15 @@
+/*
+conventii nume de clase:
+- folosim doar litere mici
+- folosim liniuta ca separator
+*/
+.page-title {
+    /* [nume-proprietate]: [valoare]; */
+    color: hsl(75, 94%, 57%);
+    background-color: black;
+    text-decoration: line-through;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 400;
+}

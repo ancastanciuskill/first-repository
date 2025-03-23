@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    font-family:"Epilogue";
+
+}
+:root {
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+}
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1024) {
+    .hamburger-menu{
+        display: none;
+        
+    }
+}
