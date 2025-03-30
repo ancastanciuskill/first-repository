@@ -14,24 +14,72 @@
   </head>
   <body>
     <nav>
-      <img src="assets/logo.svg" />
+      <img class="nav-logo" src="assets/logo.svg" />
       <img class="hamburger-menu" src="assets/icon-menu.svg" />
-      <ul>
-        <li>
-          Features <img src="assets/icon-arrow-down.svg" />
-          <ul>
-            <li><img src="assets/icon-todo.svg" /></li>
-          </ul>
-        </li>
+      <div class="navbar-links-container">
+        <ul class="navbar-links">
+          <li class="navbar-first-link">
+            Features <img src="assets/icon-arrow-down.svg" />
+            <ul class="navbar-sublinks">
+              <li>
+                <a href=""><img src="assets/icon-todo.svg" />Todo list </a>
+              </li>
 
-        <li>Company <img src="assets/icon-arrow-down.svg" /></li>
-        <li>Careers</li>
-        <li>About</li>
-      </ul>
-      <a href="login.html"></a>
-      <button>Login</button>
-      <a href="register.html"></a>
-      <button>Register</button>
+              <li>
+                <a href=""><img src="assets/icon-calendar.svg" />Clendar </a>
+              </li>
+
+              <li>
+                <a href=""><img src="assets/icon-reminders.svg" />Reminders </a>
+              </li>
+              <li>
+                <a href=""><img src="assets/icon-planning.svg" />Planning</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar-second-link">
+            Company <img src="assets/icon-arrow-down.svg" />
+            <ul class="navbar-sublinks">
+              <li>
+                <a href=""> History </a>
+              </li>
+              <li>
+                <a href="">Our Team </a>
+              </li>
+              <li>
+                <a href="">Blog </a>
+              </li>
+            </ul>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <div>
+          <a href="login.html"><button class="text-button">Login</button> </a>
+          <a href="register.html">
+            <button class="outlined-button">Register</button>
+          </a>
+        </div>
+      </div>
     </nav>
+    <header class="header-section">
+      <img class="mobile-image" src="assets/image-hero-mobile.png" />
+      <img class="desktop-image" src="assets/image-hero-desktop.png" />
+      <div class="remote-section">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="button-contained">Learn more</button>
+
+        <div class="logo-section">
+          <img src="assets/client-databiz.svg" />
+          <img src="assets/client-audiophile.svg" />
+          <img src="assets/client-meet.svg" />
+          <img src="assets/client-maker.svg" />
+        </div>
+      </div>
+    </header>
   </body>
 </html>
