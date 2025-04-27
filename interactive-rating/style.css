@@ -99,9 +99,9 @@ gap: 16px;
   color: var(--grey-500);
 }
 
-.rating-buttons-container button : hover {
+.rating-buttons-container button:hover {
     background-color: var(--orange);
-    color: var(--Grey-950);
+    color : var(--Grey-950);
     cursor: pointer;
 }
 
